@@ -73,7 +73,7 @@ fun Bmi() {
             )
 
 
-        Text(text = "The body mass index is" + stringResource(R.string.result, String.format("%.2f", bmi).replace(',', ',')))
+        Text(text = stringResource(R.string.result, String.format("%.2f", bmi).replace(',', ',')))
 
 }
 
